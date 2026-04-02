@@ -7,7 +7,7 @@
 
 /* BACKGROUND */
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Segoe UI', sans-serif;
   background: linear-gradient(180deg, #fbc2eb, #a6c1ee);
   display: flex;
   justify-content: center;
@@ -15,7 +15,7 @@ body {
   min-height: 100vh;
 }
 
-/* CARD UTAMA */
+/* CARD */
 .card {
   background: #fff0f6;
   padding: 35px 25px;
@@ -23,23 +23,25 @@ body {
   width: 90%;
   max-width: 420px;
   text-align: center;
-  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  box-shadow: 0 10px 30px rgba(255, 182, 193, 0.4);
 }
 
-/* NAMA */
+/* NAMA LUCU */
 .card h1 {
-  font-size: 22px;
+  font-family: 'Pacifico', cursive;
+  font-size: 28px;
+  color: #d46a92;
   margin-bottom: 5px;
 }
 
 /* USERNAME */
 .card p {
   font-size: 14px;
-  color: #666;
-  margin-bottom: 20px;
+  color: #aa6f8f;
+  margin-bottom: 25px;
 }
 
-/* TOMBOL LINK */
+/* BUTTON */
 a {
   display: block;
   margin: 12px 0;
@@ -52,8 +54,8 @@ a {
   transition: 0.3s;
 }
 
-/* EFEK HOVER */
+/* HOVER */
 a:hover {
   transform: scale(1.05);
-  opacity: 0.9;
+  box-shadow: 0 5px 20px rgba(255, 182, 193, 0.7);
 }
