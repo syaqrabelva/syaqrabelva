@@ -1,0 +1,27 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background: linear-gradient(180deg, #fbc2eb, #a6c1ee);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  background: #fff0f6;
+  padding: 30px;
+  border-radius: 30px;
+  width: 300px;
+  text-align: center;
+}
+
+a {
+  display: block;
+  margin: 10px 0;
+  padding: 12px;
+  border-radius: 20px;
+  background: #ff9ecf;
+  color: white;
+  text-decoration: none;
+}
